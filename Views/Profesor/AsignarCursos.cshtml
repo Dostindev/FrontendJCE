@@ -1,0 +1,30 @@
+﻿@using FrontendApi.Models
+
+@model CursosDisponibles
+
+<div class="container">
+
+    <h3 class="text-center">Cursos sin profesores</h3>
+
+    <form method="post" asp-action="ProcesarCursosSeleccionados">
+        <input type="hidden" asp-for="idProfesor" />
+
+
+        @foreach (var curso in Model.Cursos)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="curso-@curso.IdCurso" name="CursosSeleccionados" value="@curso.IdCurso">
+                <label class="form-check-label" for="curso-@curso.IdCurso">
+                    @curso.Descripcion
+                </label>
+                <label class="form-check-label" for="curso-@curso.IdCurso">
+                    @curso.Fecha.ToString("dd/MM/yyyy")
+                </label>
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary my-3">Enviar</button>
+    </form>
+
+</div>
+

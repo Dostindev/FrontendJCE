@@ -1,0 +1,74 @@
+﻿@using FrontendApi.Models
+
+@model List<Profesor>
+
+@section Styles
+    {
+    <link href="~/datatables.net-bs5/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+    }
+
+    <div class="container">
+        <h1 class="text-center">Profesores</h1>
+
+        <a class="btn btn-primary my-3" asp-controller="Profesor" asp-action="CreateUpdateProfesorView" asp-route-id="0">
+            Agregar Profesor
+        </a>
+
+        <table id="tableId" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Activo</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Cursos asignados</th>
+                    <th scope="col">Asignar cursos</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var profesor in Model)
+            {
+                <tr>
+                    <th scope="row">@profesor.IdProfesor</th>
+                    <td>@profesor.Nombres</td>
+                    <td>@profesor.Apellidos</td>
+                    <td>@(profesor.Activo ? "Sí" : "No")</td>
+                    <td>
+                       <a  asp-action="CreateUpdateProfesorView" asp-route-id="@profesor.IdProfesor" class="btn btn-warning">Editar</a>
+                    </td>
+                    <td>
+                        <a asp-action="ProfesorCursos" asp-route-id="@profesor.IdProfesor" class="btn btn-info">Ver cursos</a>
+                    </td>
+                    <td>
+                        <a asp-action="AsignarCursos" asp-route-id="@profesor.IdProfesor" class="btn btn-info">Asignar Curso</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/datatables.net/jquery.datatables.min.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tableId').DataTable({
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json',
+                },
+            });
+        });
+    </script>
+    }

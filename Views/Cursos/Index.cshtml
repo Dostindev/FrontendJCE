@@ -1,0 +1,71 @@
+﻿@using FrontendApi.Models
+
+@model List<Curso>
+
+@section Styles
+    {
+    <link href="~/datatables.net-bs5/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+    }
+
+<div class="container">
+    <h1 class="text-center">Cursos</h1>
+
+        <a class="btn btn-primary my-3" asp-controller="Cursos" asp-action="CreateUpdateCursosView" asp-route-id="0">
+        Agregar curso
+    </a>
+
+    <table id="tableId" class="table ">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Descripcion</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Detalle</th>
+
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var curso in Model){
+                <tr>
+                    <th scope="row">@curso.IdCurso</th>
+                    <td>@curso.Descripcion</td>
+                    <td>@curso.Fecha.ToString("dd/MM/yyyy")</td>
+     
+                    <td>
+                        <a asp-controller="Cursos" asp-action="CreateUpdateCursosView" asp-route-id="@curso.IdCurso" class="btn btn-warning">Editar</a>
+                    </td>
+                    <td>
+                        <a asp-action="DetalleCurso" asp-route-id="@curso.IdCurso" class="btn btn-info">Detalle</a>
+                    </td>
+                </tr>
+              }
+            
+        </tbody>
+    </table>
+</div>
+
+
+@section Scripts
+    {
+    <script src="~/lib/datatables.net/jquery.datatables.min.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tableId').DataTable({
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json',
+                },
+            });
+        });
+    </script>
+    }
+                    
+

@@ -1,0 +1,34 @@
+﻿@using FrontendApi.Models
+
+@model Curso
+
+<div class="container">
+
+    @if (Model != null)
+    {
+        <h2 class="text-center">Actualizar curso</h2>
+    }
+    else
+    {
+        <h2 class="text-center">Añadir curso</h2>
+    }
+
+    <form method="post" asp-action="CreateAndUpdate">
+
+        <input type="hidden" asp-for="IdCurso" />
+
+        <div class="mb-3">
+            <label asp-for="Descripcion" class="form-label">Nombres:</label>
+            <input asp-for="Descripcion" class="form-control" id="Nombres" required>
+            <span asp-validation-for="Descripcion" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Fecha" class="form-label">Fecha de Nacimiento:</label>
+            <input asp-for="Fecha" type="date" class="form-control" id="FechaNacimiento" required>
+            <span asp-validation-for="Fecha" class="text-danger"></span>
+        </div>
+      
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+
+</div>

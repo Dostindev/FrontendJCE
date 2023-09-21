@@ -1,0 +1,81 @@
+﻿@using FrontendApi.Models
+
+@model List<Estudiante>
+
+@section Styles
+    {
+    <link href="~/datatables.net-bs5/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+    }
+
+<div class="container">
+    <h1 class="text-center">Estudiantes</h1>
+
+        <a class="btn btn-primary my-3" asp-controller="Estudiante" asp-action="CreateUpdateEstudiante" asp-route-id="0">
+        Agregar Estudiante
+    </a>
+
+    <table id="tableId" class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombres</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Activo</th>
+                <th scope="col">Fecha Nacimiento</th>
+                <th scope="col">Curso</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Asignar cursos</th>
+
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var estudiante in Model){
+                <tr>
+                    <th scope="row">@estudiante.IdEstudiante</th>
+                    <td>@estudiante.Nombres</td>
+                    <td>@estudiante.Apellidos</td>
+                    <td>@(estudiante.Activo ? "Sí" : "No")</td>
+                    <td>@estudiante.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+                    <td>@(estudiante.Curso != null ? estudiante.Curso.Descripcion : "")</td>
+
+                    <td>
+                        <a asp-controller="Estudiante" asp-action="CreateUpdateEstudiante" asp-route-id="@estudiante.IdEstudiante" class="btn btn-warning">Editar</a>
+                    </td>
+                    <td>
+                        @if (estudiante.Curso == null)
+                        {
+                            <a asp-action="AsignarCursoEstudianteView" asp-route-id="@estudiante.IdEstudiante" class="btn btn-info">Asignar Curso</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-secondary disabled " disabled>Asignar Curso</a>
+                        }
+                    </td>
+                </tr>
+              }
+            
+        </tbody>
+    </table>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/datatables.net/jquery.datatables.min.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tableId').DataTable({
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json',
+                },
+            });
+        });
+    </script>
+    }

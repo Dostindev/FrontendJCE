@@ -1,0 +1,43 @@
+﻿@using FrontendApi.Models
+
+@model Estudiante
+
+<div class="container">
+
+
+    @if (Model != null)
+    {
+        <h2 class="text-center">Actualizar estudiante</h2>
+    }
+    else
+    {
+        <h2 class="text-center">Añadir estudiante</h2>
+    }
+
+<form method="post" asp-action="Create">
+
+    <input type="hidden" asp-for="IdEstudiante" />
+
+    <div class="mb-3">
+        <label asp-for="Nombres" class="form-label">Nombres:</label>
+            <input asp-for="Nombres" class="form-control" id="Nombres" required>
+        <span asp-validation-for="Nombres" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Apellidos" class="form-label">Apellidos:</label>
+        <input asp-for="Apellidos" class="form-control" id="Apellidos" required>
+        <span asp-validation-for="Apellidos" class="text-danger"></span>
+    </div>
+    <div class="mb-3 form-check">
+        <input asp-for="Activo" class="form-check-input" id="Activo">
+        <label class="form-check-label" for="Activo">Activo</label>
+    </div>
+    <div class="mb-3">
+        <label asp-for="FechaNacimiento" class="form-label">Fecha de Nacimiento:</label>
+        <input asp-for="FechaNacimiento" type="date" class="form-control" id="FechaNacimiento" required>
+        <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+
+</div>

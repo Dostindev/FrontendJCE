@@ -1,0 +1,69 @@
+﻿@using FrontendApi.Models
+
+@model List<Estudiante>
+
+@section Styles
+    {
+    <link href="~/datatables.net-bs5/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+    }
+
+    <div class="container">
+        <h3 class="text-center">Estudiantes</h3>
+
+        <table id="tableId" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nombres</th>
+                    <th scope="col">Apellidos</th>
+                    <th scope="col">Activo</th>
+                    <th scope="col">Fecha Nacimiento</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                @foreach (var estudiante in Model)
+                {
+                    <tr>
+                        <th scope="row">@estudiante.IdEstudiante</th>
+                        <td>@estudiante.Nombres</td>
+                        <td>@estudiante.Apellidos</td>
+                        <td>@(estudiante.Activo ? "Sí" : "No")</td>
+                        <td>@estudiante.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">Este curso no tiene estudiantes</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/datatables.net/jquery.datatables.min.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tableId').DataTable({
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json',
+                },
+            });
+        });
+    </script>
+    }
