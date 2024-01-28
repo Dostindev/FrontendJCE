@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FrontendApi
+build_property.RootNamespace = FrontendApi
+build_property.ProjectDir = C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion Front-end\Frontend\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion Front-end\Frontend
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Cliente/AsignarProyectoClienteView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBc2lnbmFyUHJveWVjdG9DbGllbnRlVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Cliente/CreateUpdateCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGVVcGRhdGVDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Proyectos/CreateUpdateProyectosView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJveWVjdG9zXENyZWF0ZVVwZGF0ZVByb3llY3Rvc1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Proyectos/DetalleProyecto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJveWVjdG9zXERldGFsbGVQcm95ZWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Proyectos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJveWVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Usuario/AsignarProyectos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBc2lnbmFyUHJveWVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Usuario/CreateUpdateUsuarioView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGVVcGRhdGVVc3VhcmlvVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Usuario/UsuarioProyectos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3VhcmlvUHJveWVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/OneDrive/Desktop/DS Projects/Projects/Sistema de Gestion Front-end/Frontend/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cak7etehey

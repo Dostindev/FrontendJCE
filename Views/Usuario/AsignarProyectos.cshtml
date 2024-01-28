@@ -1,0 +1,28 @@
+﻿@using FrontendApi.Models
+
+@model ProyectosDisponibles
+
+<div class="container">
+
+    <h3 class="text-center">Proyectos sin Usuarios</h3>
+
+    <form method="post" asp-action="ProcesarProyectosSeleccionados">
+        <input type="hidden" asp-for="idUsuario" />
+
+        @foreach (var proyecto in Model.Proyectos)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="curso-@proyecto.IdProyecto" name="ProyectosSeleccionados" value="@proyecto.IdProyecto">
+                <label class="form-check-label" for="curso-@proyecto.IdProyecto">
+                    @proyecto.Descripción
+                </label>
+                <label class="form-check-label" for="curso-@proyecto.IdProyecto">
+                    @proyecto.Fecha.ToString("dd/MM/yyyy")
+                </label>
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary my-3">Enviar</button>
+    </form>
+</div>
+

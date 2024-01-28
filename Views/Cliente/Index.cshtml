@@ -1,0 +1,80 @@
+﻿@using FrontendApi.Models
+
+@model List<Cliente>
+
+@section Styles
+    {
+    <link href="~/datatables.net-bs5/datatables.bootstrap5.min.css" rel="stylesheet" />
+
+    }
+
+<div class="container">
+    <h1 class="text-center">Clientes</h1>
+
+        <a class="btn btn-primary my-3" asp-controller="Cliente" asp-action="CreateUpdateCliente" asp-route-id="0">
+        Agregar cliente
+    </a>
+
+    <table id="tableId" class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombres</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Activo</th>
+                <th scope="col">Fecha Nacimiento</th>
+                <th scope="col">Proyecto</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Asignar proyecto</th>
+            </tr>
+        </thead>
+        <tbody>
+             @foreach (var cliente in Model){
+                <tr>
+                    <th scope="row">@cliente.IdCliente</th>
+                    <td>@cliente.Nombres</td>
+                    <td>@cliente.Apellidos</td>
+                    <td>@(cliente.Activo ? "Sí" : "No")</td>
+                    <td>@cliente.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+                    <td>@(cliente.Proyecto != null ? cliente.Proyecto.Descripción : "")</td>
+
+                    <td>
+                        <a asp-controller="Cliente" asp-action="CreateUpdateCliente" asp-route-id="@cliente.IdCliente" class="btn btn-warning">Editar</a>
+                    </td>
+                    <td>
+                        @if (cliente.Proyecto == null)
+                        {
+                            <a asp-action="AsignarProyectoClienteView" asp-route-id="@cliente.IdCliente" class="btn btn-info">Asignar Proyecto</a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-secondary disabled " disabled>Asignar Proyecto</a>
+                        }
+                    </td>
+                </tr>
+              }
+            
+        </tbody>
+    </table>
+</div>
+
+@section Scripts
+    {
+    <script src="~/lib/datatables.net/jquery.datatables.min.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.js"></script>
+    <script src="~/datatables.net-bs5/datatables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tableId').DataTable({
+                "paging": true,
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json',
+                },
+            });
+        });
+    </script>
+    }

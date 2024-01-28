@@ -1,0 +1,102 @@
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.csproj.AssemblyReference.cache
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfoInputs.cache
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfo.cs
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CoreCompileInputs.cache
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cache
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cs
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\appsettings.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\FrontendApi.staticwebassets.runtime.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\FrontendApi.exe
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\FrontendApi.deps.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\FrontendApi.runtimeconfig.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\FrontendApi.pdb
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\scopedcss\bundle\FrontendApi.styles.css
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\scopedcss\projectbundle\FrontendApi.bundle.scp.css
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CopyComplete
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\refint\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.pdb
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\FrontendApi.genruntimeconfig.cache
+C:\Users\Ronald\Desktop\Dustin\UniversidadJCE1\Frontend\obj\Debug\net6.0\ref\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\appsettings.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\FrontendApi.staticwebassets.runtime.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\FrontendApi.exe
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\FrontendApi.deps.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\FrontendApi.runtimeconfig.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\FrontendApi.pdb
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.csproj.AssemblyReference.cache
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfoInputs.cache
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfo.cs
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CoreCompileInputs.cache
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cache
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cs
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\scopedcss\bundle\FrontendApi.styles.css
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\scopedcss\projectbundle\FrontendApi.bundle.scp.css
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CopyComplete
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\refint\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.pdb
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\FrontendApi.genruntimeconfig.cache
+C:\Users\Ronald\Desktop\Dustin\Frontend\obj\Debug\net6.0\ref\FrontendApi.dll
+C:\Users\Ronald\Desktop\Dustin\Frontend\bin\Debug\net6.0\libman.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\appsettings.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\libman.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\FrontendApi.staticwebassets.runtime.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\FrontendApi.exe
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\FrontendApi.deps.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\FrontendApi.runtimeconfig.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\FrontendApi.dll
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\FrontendApi.pdb
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets\msbuild.FrontendApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets\msbuild.build.FrontendApi.props
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FrontendApi.props
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FrontendApi.props
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\scopedcss\bundle\FrontendApi.styles.css
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\scopedcss\projectbundle\FrontendApi.bundle.scp.css
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CopyComplete
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.dll
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\refint\FrontendApi.dll
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.pdb
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\FrontendApi.genruntimeconfig.cache
+C:\Users\Dell\OneDrive\Desktop\Projects\Frontend_JCE-main\Frontend\obj\Debug\net6.0\ref\FrontendApi.dll
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfoInputs.cache
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.AssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cache
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.RazorAssemblyInfo.cs
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.dll
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\refint\FrontendApi.dll
+C:\Users\Dell\OneDrive\Desktop\DS Projects\Projects\Sistema de Gestion\Frontend\obj\Debug\net6.0\FrontendApi.pdb

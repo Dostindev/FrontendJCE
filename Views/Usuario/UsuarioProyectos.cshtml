@@ -1,0 +1,28 @@
+﻿@using FrontendApi.Models
+
+@model Usuario
+
+<div class="container">
+    <h3 class="text-center">Proyectos asignados</h3>
+
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th scope="col">#Id</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var proyecto in Model.Proyectos)
+            {
+                <tr>
+                    <th scope="row">@proyecto.IdProyecto</th>
+                    <td>@proyecto.Descripción</td>
+                    <td>@proyecto.Fecha.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

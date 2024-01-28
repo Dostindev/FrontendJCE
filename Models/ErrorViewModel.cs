@@ -1,4 +1,4 @@
-namespace FrontendApi.Models
+﻿namespace FrontendApi.Models
 {
     public class ErrorViewModel
     {

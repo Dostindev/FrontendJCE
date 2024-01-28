@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "datatables.net@1.10.21",
+      "destination": "wwwroot/lib/datatables.net/",
+      "files": [
+        "jquery.dataTables.min.js"
+      ]
+    }
+  ,
+{
+  "provider": "cdnjs",
+  "library": "datatables.net-bs5@1.13.6",
+  "destination": "wwwroot/datatables.net-bs5/"
+}
+]
+}

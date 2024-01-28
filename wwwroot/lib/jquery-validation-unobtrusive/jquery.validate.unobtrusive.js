@@ -1,20 +1,12 @@
-// Unobtrusive validation support library for jQuery and jQuery Validate
-// Copyright (c) .NET Foundation. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
-// @version v3.2.11
-
-/*jslint white: true, browser: true, onevar: true, undef: true, nomen: true, eqeqeq: true, plusplus: true, bitwise: true, regexp: true, newcap: true, immed: true, strict: false */
-/*global document: false, jQuery: false */
 
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define("jquery.validate.unobtrusive", ['jquery-validation'], factory);
+
+      define("jquery.validate.unobtrusive", ['jquery-validation'], factory);
     } else if (typeof module === 'object' && module.exports) {
-        // CommonJS-like environments that support module.exports     
         module.exports = factory(require('jquery-validation'));
     } else {
-        // Browser global
+       
         jQuery.validator.unobtrusive = factory(jQuery);
     }
 }(function ($) {
@@ -34,7 +26,7 @@
     }
 
     function escapeAttributeValue(value) {
-        // As mentioned on http://api.jquery.com/category/selectors/
+        // http://api.jquery.com/category/selectors/
         return value.replace(/([!"#$%&'()*+,./:;<=>?@\[\\\]^`{|}~])/g, "\\$1");
     }
 
@@ -102,7 +94,7 @@
         if ($form.data(key)) {
             return;
         }
-        // Set a flag that indicates we're currently resetting the form.
+
         $form.data(key, true);
         try {
             $form.data("validator").resetForm();
@@ -117,7 +109,7 @@
             .addClass("field-validation-valid")
             .removeClass("field-validation-error")
             .removeData("unobtrusiveContainer")
-            .find(">*")  // If we were using valmsg-replace, get the underlying error
+            .find(">*")  
             .removeData("unobtrusiveContainer");
     }
 
@@ -133,7 +125,7 @@
 
         if (!result) {
             result = {
-                options: {  // options structure passed to jQuery Validate's validate() method
+                options: { 
                     errorClass: defaultOptions.errorClass || "input-validation-error",
                     errorElement: defaultOptions.errorElement || "span",
                     errorPlacement: function () {
@@ -157,7 +149,7 @@
                         .on("reset." + data_validation, onResetProxy)
                         .validate(this.options);
                 },
-                validate: function () {  // a validation function that is called by unobtrusive Ajax
+                validate: function () { 
                     $form.validate();
                     return $form.valid();
                 }
@@ -184,7 +176,7 @@
                 form = $element.parents("form")[0],
                 valInfo, rules, messages;
 
-            if (!form) {  // Cannot do client-side validation without a form
+            if (!form) {  
                 return;
             }
 

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "twUSS59Ew48A8mjvIyZFk3X+KPtPtjqWkIOQrXppLWxDNNg4653a8UmCRsL0JymhkT2p8ZZfT3WbzgdA8Tn7Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell\\OneDrive\\Desktop\\DS Projects\\Projects\\Sistema de Gestion Front-end\\Frontend\\FrontendApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
